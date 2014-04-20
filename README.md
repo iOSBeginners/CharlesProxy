@@ -3,7 +3,7 @@ CharlesProxy
 
  We use this project to demonstrate how to hack an iOS application by using « Charles proxy »  
  
-    This is an iOS project that contains a webView we will try to change the host and after this we will try to change the response of the host (the information displayed in the web view) 
+ This is an iOS project that contains a webView we will try to change the host and after this we will try to change the response of the host (the information displayed in the web view) 
 
  
  There is two ways to do this :  
