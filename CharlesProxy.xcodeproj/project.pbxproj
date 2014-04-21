@@ -14,7 +14,7 @@
 		14FACAB91904082100CDBAA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FACAB81904082100CDBAA6 /* main.m */; };
 		14FACABD1904082100CDBAA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FACABC1904082100CDBAA6 /* AppDelegate.m */; };
 		14FACAC01904082100CDBAA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14FACABE1904082100CDBAA6 /* Main.storyboard */; };
-		14FACAC31904082100CDBAA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FACAC21904082100CDBAA6 /* ViewController.m */; };
+		14FACAC31904082100CDBAA6 /* CharlesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FACAC21904082100CDBAA6 /* CharlesViewController.m */; };
 		14FACAC51904082100CDBAA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14FACAC41904082100CDBAA6 /* Images.xcassets */; };
 		14FACACC1904082100CDBAA6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14FACACB1904082100CDBAA6 /* XCTest.framework */; };
 		14FACACD1904082100CDBAA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14FACAAC1904082100CDBAA6 /* Foundation.framework */; };
@@ -45,8 +45,8 @@
 		14FACABB1904082100CDBAA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		14FACABC1904082100CDBAA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		14FACABF1904082100CDBAA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		14FACAC11904082100CDBAA6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		14FACAC21904082100CDBAA6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		14FACAC11904082100CDBAA6 /* CharlesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CharlesViewController.h; sourceTree = "<group>"; };
+		14FACAC21904082100CDBAA6 /* CharlesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CharlesViewController.m; sourceTree = "<group>"; };
 		14FACAC41904082100CDBAA6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		14FACACA1904082100CDBAA6 /* CharlesProxyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CharlesProxyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14FACACB1904082100CDBAA6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -115,8 +115,8 @@
 				14FACABB1904082100CDBAA6 /* AppDelegate.h */,
 				14FACABC1904082100CDBAA6 /* AppDelegate.m */,
 				14FACABE1904082100CDBAA6 /* Main.storyboard */,
-				14FACAC11904082100CDBAA6 /* ViewController.h */,
-				14FACAC21904082100CDBAA6 /* ViewController.m */,
+				14FACAC11904082100CDBAA6 /* CharlesViewController.h */,
+				14FACAC21904082100CDBAA6 /* CharlesViewController.m */,
 				14FACAC41904082100CDBAA6 /* Images.xcassets */,
 				14FACAB31904082100CDBAA6 /* Supporting Files */,
 			);
@@ -249,7 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14FACAC31904082100CDBAA6 /* ViewController.m in Sources */,
+				14FACAC31904082100CDBAA6 /* CharlesViewController.m in Sources */,
 				14FACABD1904082100CDBAA6 /* AppDelegate.m in Sources */,
 				14FACAB91904082100CDBAA6 /* main.m in Sources */,
 			);
@@ -458,6 +458,7 @@
 				14FACADD1904082100CDBAA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14FACADE1904082100CDBAA6 /* Build configuration list for PBXNativeTarget "CharlesProxyTests" */ = {
 			isa = XCConfigurationList;
@@ -466,6 +467,7 @@
 				14FACAE01904082100CDBAA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
