@@ -13,7 +13,6 @@
 @property (weak, nonatomic) IBOutlet UIWebView *charlesSite;
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *spinner;
 - (IBAction)refreshWebView:(id)sender;
-
 @end
 
 @implementation CharlesViewController
@@ -55,7 +54,7 @@
 
 
 - (void)refreshWebView {
-    NSURLRequest *urlRequest = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://conecode.com/contact.php"]];
+    NSURLRequest *urlRequest = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://nshipster.com"]];
     [[NSURLCache sharedURLCache] removeCachedResponseForRequest:urlRequest];
     [_charlesSite loadRequest:urlRequest];
     
